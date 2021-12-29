@@ -21,3 +21,9 @@ body {
     display: block;
 }
 
+.loading__anim {  
+    width: 35px;  
+    height: 35px; 
+    display: inline-block;
+    border: 5px solid rgba(189,189,189 ,0.25);
+}
