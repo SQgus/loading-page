@@ -21,6 +21,8 @@ body {
     display: block;
 }
 
+@keyframes rotate { to {  transform: rotate(1turn) }}
+
 .loading__anim {  
     width: 35px;  
     height: 35px; 
@@ -29,4 +31,5 @@ body {
     border-left-color: rgba(3,155,229 ,1);  
     border-top-color: rgba(3,155,229 ,1);
     border-radius: 50%;
+    animation: rotate 600ms infinite linear;
 }
